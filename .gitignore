@@ -131,3 +131,4 @@ dump/data_dtm.pkl
 notebook/.DS_Store
 .DS_Store
 dump/data_dtm_2.pkl
+dump/data_dtm_lemma.pkl

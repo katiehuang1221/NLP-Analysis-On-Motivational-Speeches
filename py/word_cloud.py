@@ -11,14 +11,14 @@ from sklearn.feature_extraction import text
 from sklearn.feature_extraction.text import CountVectorizer
 
 
-def cv_dtm(df,column_name):
+def cv_dtm(df,column_name,add_stop_words=[]):
     """
     Input: corpus (Ex: speech_clean_2, 'transcript')
     Output: Document-Term Matrix (rows: documents, columns: words)
     
     """
-    
-    cv = CountVectorizer(stop_words='english')
+    stop_words = text.ENGLISH_STOP_WORDS.union(add_stop_words)
+    cv = CountVectorizer(stop_words=stop_words)
     data_cv = cv.fit_transform(df[column_name])
 
     data_dtm = pd.DataFrame(data_cv.toarray(), columns=cv.get_feature_names())
