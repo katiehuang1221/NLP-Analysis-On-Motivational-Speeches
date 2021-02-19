@@ -131,4 +131,8 @@ dump/data_dtm.pkl
 notebook/.DS_Store
 .DS_Store
 dump/data_dtm_2.pkl
+<<<<<<< HEAD
 resource
+=======
+dump/data_dtm_lemma.pkl
+>>>>>>> 3091e1b22408e91b03a732687c0f0d834e6e0520
