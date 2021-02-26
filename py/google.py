@@ -18,6 +18,7 @@ import re
 Functions for web scraping with selenium
 1. Google speaker
 2. Google institute
+3. Google institute on Google Map
 
 """
 
@@ -130,5 +131,37 @@ def google_school(school):
 
     school_dict = dict(zip(headers,
                 [school,coord,latitude,longitude]))
+
+    return school_dict
+
+
+
+def google_school_2(school):
+    """Get coordinates from google map url"""
+    
+    keyword = school
+    school_dict={}
+    headers = ["school","coord","latitude","longitude"]
+
+    # Scrape google map for dd coord
+    driver.get("https://www.google.com/maps")
+    search_bar = driver.find_element_by_xpath("//input[@name='q'][@id='searchboxinput']")
+    search_bar.clear()
+    search_bar.send_keys(keyword)
+    #     print(speaker)
+    search_bar.send_keys(Keys.RETURN)
+    time.sleep(5)
+
+    coord,latitude,longitude = np.nan,np.nan,np.nan
+    try:
+        url = driver.current_url
+        coord = re.findall('@[-+]?\d+\.?\d+,[-+]?\d+\.?\d+',url)
+        latitude = coord[0].split(',')[0].lstrip('@')
+        longitude = coord[0].split(',')[1]
+    except:
+        pass
+
+    school_dict = dict(zip(headers,
+                           [school,coord,latitude,longitude]))
 
     return school_dict
