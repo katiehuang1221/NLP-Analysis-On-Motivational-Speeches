@@ -47,14 +47,17 @@ boring_words = ['say','like','just','dont','don','im',
                 'little', 'maybe','niagara','university','dartmouth','woman', 'womens', 'men','wellesley',
                 'shirtwaist','scripps','aidan','tuskegee','dr','colleges', 'guy', 'dave',
                 'arts','montgomery','girls', 'musicians',
-                'sisters','kind']
+                'sisters','kind',
+                'parents','parent','family','friends','hearts', # added on 02/24/2021
+
+                
+                ]
 
 import pickle
 with open("../dump/common_words.txt", "rb") as f:   # Unpickling
     common_words = pickle.load(f)
     
 add_stop_words = add_stop_words + common_words + boring_words
-
 stop_words = text.ENGLISH_STOP_WORDS.union(add_stop_words)
 
 
