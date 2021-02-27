@@ -48,7 +48,7 @@ boring_words = ['say','like','just','dont','don','im',
                 'shirtwaist','scripps','aidan','tuskegee','dr','colleges', 'guy', 'dave',
                 'arts','montgomery','girls', 'musicians',
                 'sisters','kind',
-                'parents','parent','family','friends','hearts', # added on 02/24/2021
+                #'parents','parent','family','friends','hearts', # added on 02/24/2021
 
                 
                 ]
