@@ -54,7 +54,8 @@ The percent stacked area chart below shows the trend of topic over the years. Ea
 > 
 > **Observations**: For artists and athletes, the speech topics are less diversified. Artists talk a lot about arts and hardship and athletes talk mostly about sports (not surprising). While speakers in academia and politics both have a large portion with topic of New generation and nation, the context is a little different. The former talks about new generation in terms of knowledge, and the latter is about country and history. Speakers in the entertainment industry tend to share stories and advice (included in the topic of Family & Friends). Among all professions, more (percentage wise) speakers in the publising industry (inlcuding writers, journalists, etc) address Women's voice. And close to half of the speakers in tech or business (47%) have Dream as their speech topic.
 
-
+  <br/>
+  <br/>
 
 
 ### 3. Sentiment Analysis
@@ -117,7 +118,7 @@ Above comparison among different speaker profession shows that speakers in enter
     * Latent Dirichlet Allocation: `gensim.models.LdaModel`
     * with CountVectorizer: `sklearn.feature_extraction.text.CountVectorizer`
 
- * **[K-means](https://github.com/katiehuang1221/onl_ds5_project_4/blob/main/notebook/05_topic_modeling_2.ipynb)**
+ * **[K-means](https://github.com/katiehuang1221/onl_ds5_project_4/blob/main/notebook/04_topic_modeling_2.ipynb)**
     * Speech clustering
     * Pipline: `sklearn.decomposition.TruncatedSVD`,`sklearn.cluster.KMeans`
  
