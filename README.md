@@ -1,12 +1,12 @@
 # Project 4: <br/> NLP - What they talk about when they talk about...Graduating
-An analysis of U.S. commencement speeches
+An analysis of Commencement speeches in the U.S.
 
 
-###### Weeks 6.5, 7, 8
+###### Metis Weeks 6.5, 7, and 8
 
 ## Introduction
 
-Every year, .
+Every year, colleges or universities invite noted speakers such as tech leaders, politicians, famous writers, influential people in academeia or entertainment etc. to address the graduating class. Through natural language processing, this project analyzes these heartening and poignant speeches, identifying both their common traits and what makes them stand out.
 
 ## Objective
 
@@ -62,6 +62,16 @@ The percent stacked area chart below shows the trend of topic over the years. Ea
 ![alt text](https://github.com/katiehuang1221/onl_ds5_project_4/blob/main/img/sent_profession_1x4.png)
 
 Above comparison among different speaker profession shows that speakers in entertainment and tech industry tend to remain positive throughout the speech. However, the evolution of sentiment in speeches from laywers, doctors, or academic researchers shows a different pattern. They may start with a positive opening and ending, but become less positive or even negative in the middle of the speech.
+
+  <br/>
+  <br/>
+
+
+### 4. Network Analysis
+
+A network of speakers is constructed based on the overlap of words used in their speeches. It shows the relation between the speeches/speakers from another perspective other than the conventional bag of words topic modeling.
+
+![alt text](https://github.com/katiehuang1221/onl_ds5_project_4/blob/main/img/network.png)
 
 
 
