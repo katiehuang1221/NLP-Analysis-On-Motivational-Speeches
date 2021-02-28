@@ -18,7 +18,7 @@ Learn from successful leaders in different fields about giving an inspirational 
 ## Findings
 
 ### 1. Trend of topics over the years
-From topic modeling, 8 topics are identified for all speeches:
+From topic modeling based on all speeches, 8 topics are identified:
 * Family & Friends
 * Women's voice
 * New generation & Nation
