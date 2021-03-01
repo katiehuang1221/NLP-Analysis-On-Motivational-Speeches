@@ -148,8 +148,6 @@ A network of speakers is constructed based on the overlap of words used in their
     - `nrclex.NRCLex`
     - NRC emotion dictionary: positive, joy, anticipation, trust, surprise, negative, fear, anger, sadness, disgust
     
- * Cross-Validation & hyperparameter Tuning
-    - `GridSearchCV`
 
  
 #### Visualization
