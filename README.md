@@ -6,7 +6,7 @@ An analysis of Commencement speeches in the U.S.
 
 ## Introduction
 
-Every year, colleges or universities invite noted speakers such as tech leaders, politicians, famous writers, influential people in academeia or entertainment etc. to address the graduating class. Through natural language processing, this project analyzes these heartening and poignant speeches, identifying both their common traits and what makes them stand out.
+Every year, colleges or universities invite noted speakers such as tech leaders, politicians, famous writers, influential people in academia or entertainment etc. to address the graduating class. Through natural language processing, this project analyzes these heartening and poignant speeches, identifying both their common traits and what makes them stand out.
 
 ## Objective
 
