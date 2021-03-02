@@ -42,7 +42,7 @@ The percent stacked area chart below shows the trend of topic over the years. Ea
 > 
 > ![alt text](https://github.com/katiehuang1221/onl_ds5_project_4/blob/main/img/topic_region_perc.png)
 >
-> **Observations**: At first glance, West and East regions have similar topic distribution with West having slighly larger portions for Hardship and Nation. There are more talks about Sports (sportsmanship) and Arts & Science in the East. Interestingly, while West and East have comparable portion for Women's voice, it is nonexistent in Central region.
+> **Observations**: At first glance, West and East regions have similar topic distribution with West having slightly larger portions for Hardship and Nation. There are more talks about Sports (sportsmanship) and Arts & Science in the East. Interestingly, while West and East have comparable portion for Women's voice, it is nonexistent in Central region.
 
 
   <br/>
