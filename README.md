@@ -61,7 +61,7 @@ The percent stacked area chart below shows the trend of topic over the years. Ea
 ### 3. Sentiment Analysis
 ![alt text](https://github.com/katiehuang1221/onl_ds5_project_4/blob/main/img/sent_profession_1x4.png)
 
-Above comparison among different speaker profession shows that speakers in entertainment and tech industry tend to remain positive throughout the speech. However, the evolution of sentiment in speeches from laywers, doctors, or academic researchers shows a different pattern. They may start with a positive opening and ending, but become less positive or even negative in the middle of the speech.
+Above comparison among different speaker profession shows that speakers in entertainment and tech industry tend to remain positive throughout the speech. However, the evolution of sentiment in speeches from lawyers, doctors, or academic researchers shows a different pattern. They may start with a positive opening and ending, but become less positive or even negative in the middle of the speech.
 
   <br/>
   <br/>
